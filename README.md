@@ -1,7 +1,7 @@
 # Neural_Coreference_Resolution
 
-![Intro](/Images/Coref2.png)
-![Intro](/Images/Coref2.png)
+![Intro_Ex1](/Images/Coref2.png)
+![Intro_Ex2](/Images/Coref1.png)
 ** Files Used:
 * train.conll: training dataset containing 94,720 tokens (https://www.aclweb.org/anthology/D18-1016/)
 * dev.conll: development dataset containing 94,336 tokens to evaluate your coref system’s performance
