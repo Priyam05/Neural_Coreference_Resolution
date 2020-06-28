@@ -2,14 +2,16 @@
 
 ![Intro_Ex1](/Images/Coref2.png)
 ![Intro_Ex2](/Images/Coref1.png)
-** Files Used:
+** Files Used:**
 * train.conll: training dataset containing 94,720 tokens (https://www.aclweb.org/anthology/D18-1016/)
 * dev.conll: development dataset containing 94,336 tokens to evaluate your coref system’s performance
 
 **B3**
 We will be using B3 score to evaluate our model.
-![B3](/Images/B3.png)
+
 n ranges over all mentions in gold and system output
+![B3](/Images/B3.png)
+
 
 b3 takes in two Python dictionaries with identical keys; each dictionary maps the key to its cluster ID. It returns a tuple of three values: (precision, recall, F-score). The helper function b3_test will give you one piece of information for knowing whether your implementation is correct.
 
